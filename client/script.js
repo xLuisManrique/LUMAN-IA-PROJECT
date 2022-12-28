@@ -80,7 +80,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv)
 
   // fetch data from server and bots response the answer that user do 
-  const response = await fetch('luman-ia.onrender.com', {
+  const response = await fetch('https://luman-ia.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
